@@ -1,3 +1,3 @@
-for i in range(1,50):
-  a = 7
-  print(i*a)
+a,b = input("enter a and b").split(" ")
+for i in range(1,int(a)):
+  print(i*b)
